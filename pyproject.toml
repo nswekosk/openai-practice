@@ -1,16 +1,18 @@
 [tool.poetry]
-name = "notebooks"
+name = "openai-practice"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["nswekosk <nick.swekosky@gmail.com>"]
 readme = "README.md"
+packages = [{include = "openai_practice"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-openai = "^0.27.3"
+openai = "^0.27.4"
 langchain = "^0.0.150"
 chromadb = "^0.3.21"
-setuptools = "^67.7.2"
+ipykernel = "^6.22.0"
+tiktoken = "^0.3.3"
 
 
 [build-system]
